@@ -6,6 +6,6 @@ This is my personal developer portfolio website built using **HTML**, **CSS**, a
 
 ## 🌐 Live Preview
 
-[🔗https://bharath2503.github.io/my-portfolio/](#)
+[🔗 View Portfolio Online]
 
-
+> https://bharath2503.github.io/my-portfolio/
