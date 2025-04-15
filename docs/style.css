@@ -30,15 +30,29 @@ a,
 
 /* DESKTOP NAV */
 
+#about,
+#projects,
+#skills,
+#contact {
+  scroll-margin-top: 10vh;
+}
+
 nav,
 .nav-links {
   display: flex;
 }
 
 nav {
+  /* justify-content: space-around;
+  align-items: center;
+  height: 17vh; */
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  background-color: #1e1e1e;
+  z-index: 100;
 }
 
 .nav-links {
@@ -323,9 +337,9 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Skills SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
@@ -338,7 +352,6 @@ section {
 
 .experience-details-container {
   display: flex;
-  /* justify-content: start; */
   flex-direction: column;
 }
 
@@ -365,7 +378,20 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  width: 80%;
   position: relative;
+}
+
+.projects-wrapper .about-containers {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.projects-wrapper .details-container.color-container {
+  width: 100%;
+  max-width: 800px;
 }
 
 .color-container {
@@ -374,7 +400,7 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 12px;
   width: 90%;
   height: 90%;
 }
@@ -422,6 +448,10 @@ article .icon {
   font-size: larger;
 }
 
+.contact-info-container a {
+  text-decoration: none;
+}
+
 .contact-icon {
   cursor: default;
 }
@@ -439,4 +469,31 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+/* Scroll to Top */
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#scroll-to-top {
+  color: #ff6347; /* Color of the link */
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  animation: blink 1.5s infinite; /* Apply the blink animation */
+}
+
+#scroll-to-top:hover {
+  color: #ff4500; /* Darker shade when hovered */
 }
