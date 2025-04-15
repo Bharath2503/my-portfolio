@@ -6,10 +6,6 @@ This is my personal developer portfolio website built using **HTML**, **CSS**, a
 
 ## 🌐 Live Preview
 
-[🔗 View Portfolio Online](#)  
-> *(Add your live hosted link here — e.g., Netlify, GitHub Pages, or Vercel)*
+[🔗 View Portfolio Online](#)
 
----
-
-## 📁 Project Structure
-
+> https://bharath2503.github.io/my-portfolio/
