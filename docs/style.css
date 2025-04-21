@@ -18,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: whitesmoke;
 }
 
 /* TRANSITION */
@@ -180,8 +180,8 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  gap: 10rem;
+  height: 85vh;
 }
 
 .section__pic-container {
